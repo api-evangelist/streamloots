@@ -1,8 +1,13 @@
 aid: streamloots
 name: Streamloots
-description: 'Streamloots is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Streamloots is a monetization platform for live-streaming creators and their communities,
+  originally surfaced as a portfolio company of Bessemer Venture Partners. It lets streamers turn viewers
+  into paying supporters through interactive collectible Cards that trigger on-stream moments, plus
+  Subscriptions, Auctions, a Marathon goal timer, and Tips. The platform works across Twitch, YouTube,
+  Kick, Facebook, and Trovo, offers creator-favorable revenue splits and bi-monthly payouts, and provides
+  fraud protection, a points store, and browser/OBS alert overlays. Streamloots runs a backend API at
+  api.streamloots.com that powers its apps and Twitch Extension, but does not publish a public developer
+  API, OpenAPI specification, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/streamloots/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.streamloots.com/1ee0e8bc-5be9-4cd0-ae7f-f2ceb707ab44/favicons/apple-icon-57x57.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Vertical Software
+- Creator Economy
+- Live Streaming
+- Monetization
+- Payments
+- Twitch
+- Gaming
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.streamloots.com/
+- type: Support
+  url: https://support.streamloots.com/en/
+- type: Blog
+  url: https://www.streamloots.com/blog
+- type: SignUp
+  url: https://www.streamloots.com/#register
+- type: TermsOfService
+  url: https://www.streamloots.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.streamloots.com/privacy
+- type: DomainSecurity
+  url: security/streamloots-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/streamloots-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.streamloots.com/vulnerability-disclosure
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
